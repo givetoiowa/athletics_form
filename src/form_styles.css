@@ -1,0 +1,127 @@
+/* ATHLETICS FORM STYLES */
+
+ul, li {
+	list-style-type: none
+}
+
+label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin-bottom: 10px;
+	color: #666;
+	line-height: 20px; }
+
+input[value="Submit"] {
+	color: white;
+	cursor: pointer;
+	background-color: #F4B519;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-khtml-border-radius: 5px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F4B519), to(#C90));
+	background: -webkit-linear-gradient(top, #F4B519, #C90);
+	background: -moz-linear-gradient(top, #F4B519, #C90);
+	background: -ms-linear-gradient(top, #F4B519, #C90);
+	background: -o-linear-gradient(top, #F4B519, #C90);
+	text-shadow: -1px -1px 0px #AA7B1D;
+	border: 1px solid #AA7B1D;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 1;
+	padding: 8px 20px 11px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;}
+
+.goback {
+	color: black;
+	cursor: pointer;
+	background-color: #efefef;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border: 1px solid #AA7B1D;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	padding: 8px 20px 11px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;}
+}
+
+#ID-LOOKUP input[type="submit"]{
+	color: black;
+	cursor: pointer;
+	background-color: #efefef;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border: 1px solid #AA7B1D;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	padding:8px !important;}
+
+.submitChoice {
+	margin:8px auto !important;
+	display: block !important}
+
+#ID-LOOKUP, .info {
+	max-width: 350px;
+	margin:12px auto;
+	display: block; }
+
+.info {
+	width:200px;
+	padding:14px 0;
+	text-align: center;
+	background-color: #efefef;
+	border:1px solid #CCC;
+	border-radius: 2px;}
+
+.info p {
+	color:black;
+	font-weight: bolder
+}
+.options {
+	margin:10px 0 10px 15px !important;
+	padding:0 !important;
+}
+
+.noID {
+	text-align: center;
+	margin-top:25px;
+}
+
+.centerButtons {
+	list-style-type: none;
+	width:250px;
+	margin-left:185px !important;
+	display: block;
+}
+
+.centerButtons li {
+	display: inline;
+	max-width:100px;
+	margin: 0 10px 0 0;
+}
+
+.centerButtons li:nth-of-type(2) {
+	border-left:1px solid #CCC;
+	padding-left:20px;
+}
+
+.centerButtons li:first-child {
+	padding-top: 2.35px;	
+}
